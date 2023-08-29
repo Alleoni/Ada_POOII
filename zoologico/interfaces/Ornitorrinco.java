@@ -1,6 +1,7 @@
 package com.ada.pooii.zoologico.interfaces;
 
-public class Ornitorrinco implements Nadador, Animal, Amamentador {
+public class Ornitorrinco implements Nadador, Amamentador, Animal {
+
 
 
     @Override
