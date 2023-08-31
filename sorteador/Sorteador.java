@@ -1,33 +1,33 @@
 package com.ada.pooii.sorteador;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Sorteador {
+
+
     private final List<String> elementos;
 
     public Sorteador(List<String> elementos) {
         this.elementos = elementos;
     }
 
+    /**
+     * Sorteia e remove um elemento da lista
+     * @return
+     */
     public String sortear() {
-        Collections.shuffle(elementos);
-        return elementos.get(0);
-
+        if (elementos.isEmpty()) {
+            return null;
+        }
+        int indiceSorteado = ThreadLocalRandom.current().nextInt(elementos.size());
+        String elementoSorteado = elementos.remove(indiceSorteado);
+        return elementoSorteado;
     }
 
-    public static void main(String[] args) {
-        List<String> elementos  = new ArrayList<>();
-        elementos.add("banana");
-        elementos.add("maçã");
-        elementos.add("abacate");
-        elementos.add("tomate");
-        Sorteador sorteador = new Sorteador(elementos);
-        while (!elementos.isEmpty()) {
-            System.out.println("Elemento sorteado: " + sorteador.sortear());
-            elementos.remove(elementos.get(0));
-        }
-        System.out.println(elementos);
+    public List<Grupo> agrupar(int numeroDeGruposEsperados) {
+
+        return null;
     }
 }
