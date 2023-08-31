@@ -1,6 +1,7 @@
 package com.ada.pooii.sorteador;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Sorteador {
@@ -11,6 +12,7 @@ public class Sorteador {
     }
 
     public String sortear() {
+        Collections.shuffle(elementos);
         return elementos.get(0);
 
     }
