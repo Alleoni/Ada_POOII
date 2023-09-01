@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5462ab7c-203d-4c80-92d3-bc9fa6874e7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../generics/src/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../generics/src/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorteador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorteador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/Sorteador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sorteador/com/ada/pooii/sorteador/sorteador.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zoologico/interfaces/Amamentador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zoologico/interfaces/Amamentador.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2UoatQYsEEbEA41QIr43loaYs3q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/guilh/OneDrive/Área de Trabalho/Santander Coders/Santander Coders/POO 2/sorteador"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5462ab7c-203d-4c80-92d3-bc9fa6874e7c" name="Changes" comment="" />
+      <created>1693608603990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693608603990</updated>
+    </task>
+    <servers />
+  </component>
+</project>
