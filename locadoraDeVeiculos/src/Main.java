@@ -9,6 +9,9 @@ public class Main {
 
         GerenciadorDeAlugueisVeiculos gerenciador = new GerenciadorDeAlugueisVeiculos();
 
+        Cliente cliente1 = new Cliente("Marcelo","12345678910");
+        gerenciador.cadastrarCliente(cliente1);
+        System.out.println(cliente1);
         gerenciador.cadastrarVeiculo(veiculo1);
 
         System.out.println(veiculo1);
@@ -20,6 +23,7 @@ public class Main {
        // System.out.println(veiculo1);
 
         System.out.println(gerenciador.buscarVeiculoPorNome("Onix"));
+
 
 
     }

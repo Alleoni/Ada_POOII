@@ -10,12 +10,12 @@ public class Aluguel {
     private LocalDateTime dataHoraDevolucao;
     private boolean veiculoDevolvido;
 
-    public Aluguel(Veiculo veiculo, Cliente cliente, String local, LocalDateTime dataHoraAtual, boolean veiculoDevolvido) {
+    public Aluguel(Veiculo veiculo, Cliente cliente, String local, LocalDateTime dataHoraAtual) {
         this.veiculo = veiculo;
         this.cliente = cliente;
         this.local = local;
         this.dataHoraAtual = dataHoraAtual;
-        this.veiculoDevolvido = veiculoDevolvido;
+        this.veiculoDevolvido = false;
     }
 
     public Veiculo getVeiculo() {

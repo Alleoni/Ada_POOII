@@ -5,15 +5,14 @@ public class Veiculo {
     private boolean disponivel;
     public Veiculo() {
     }
-    public Veiculo(String placa, String nome, Modelo modelo, boolean disponivel) {
+    public Veiculo(String placa, String nome, Modelo modelo) {
         this.placa = placa;
         this.nome = nome;
         this.modelo = modelo;
-        this.disponivel = disponivel;
+        this.disponivel = true;
     }
 
     public String getPlaca() {
-
         return placa;
     }
 

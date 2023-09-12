@@ -21,4 +21,12 @@ public class Cliente {
     public void setDocumento(String documento) {
         this.documento = documento;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", documento='" + documento + '\'' +
+                '}';
+    }
 }

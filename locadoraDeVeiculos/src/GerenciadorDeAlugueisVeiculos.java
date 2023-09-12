@@ -1,3 +1,4 @@
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,8 +7,6 @@ public class GerenciadorDeAlugueisVeiculos {
     private List<Veiculo> veiculos = new ArrayList<>();
     private List<Cliente> clientes = new ArrayList<>();
     private List<Aluguel> alugueis = new ArrayList<>();
-
-
 
     public void cadastrarVeiculo(Veiculo veiculo){
         if(!veiculos.contains(veiculo)){
@@ -47,6 +46,16 @@ public class GerenciadorDeAlugueisVeiculos {
         return null;
     }
 
+    public void alugarVeiculo(Veiculo veiculo, Cliente cliente, String local, LocalDateTime dataHoraAtual){
+        if (veiculo.isDisponivel()){
+            Aluguel aluguel = new Aluguel(veiculo, cliente, local, dataHoraAtual);
+            veiculo.setDisponivel(false);
+            alugueis.add(aluguel);
+        }
+    }
 
+    public void devolverVeiculo(Veiculo veiculo, Cliente cliente, String Local, LocalDateTime dataHoraDevolucao){
+
+    }
 
 }
