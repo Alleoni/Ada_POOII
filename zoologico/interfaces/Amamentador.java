@@ -8,3 +8,4 @@ public interface Amamentador extends Animal {
     }
 
 }
+

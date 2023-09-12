@@ -1,17 +1,15 @@
 public class Veiculo {
     private String placa;
     private String nome;
-    private Double motor;
     private Modelo modelo;
-
+    private boolean disponivel;
     public Veiculo() {
     }
-
-    public Veiculo(String placa, String nome, Double motor, Modelo modelo) {
+    public Veiculo(String placa, String nome, Modelo modelo, boolean disponivel) {
         this.placa = placa;
         this.nome = nome;
-        this.motor = motor;
         this.modelo = modelo;
+        this.disponivel = disponivel;
     }
 
     public String getPlaca() {
@@ -31,19 +29,29 @@ public class Veiculo {
         this.nome = nome;
     }
 
-    public Double getMotor() {
-        return motor;
-    }
-
-    public void setMotor(Double motor) {
-        this.motor = motor;
-    }
-
     public Modelo getModelo() {
         return modelo;
     }
 
     public void setModelo(Modelo modelo) {
         this.modelo = modelo;
+    }
+
+    public boolean isDisponivel() {
+        return disponivel;
+    }
+
+    public void setDisponivel(boolean disponivel) {
+        this.disponivel = disponivel;
+    }
+
+    @Override
+    public String toString() {
+        return "Veiculo{" +
+                "placa='" + placa + '\'' +
+                ", nome='" + nome + '\'' +
+                ", modelo=" + modelo +
+                ", disponivel=" + disponivel +
+                '}';
     }
 }

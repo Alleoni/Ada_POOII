@@ -10,7 +10,7 @@ public class Generics {
         int compararString = primeira.compareTo(segunda);
         if(compararString > 0){
             return primeira;
-        } else if(compararString <0){
+        } else if(compararString < 0){
             return segunda;
         } else {
             return "As Strings são iguais";
