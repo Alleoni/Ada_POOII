@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/locadoraDeVeiculos.iml" filepath="$PROJECT_DIR$/locadoraDeVeiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Locadora De Veiculos/Locadora De Veiculos.iml" filepath="$PROJECT_DIR$/Locadora De Veiculos/Locadora De Veiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LocadoraDeVeiculos.iml" filepath="$PROJECT_DIR$/.idea/LocadoraDeVeiculos.iml" />
     </modules>
   </component>
 </project>
